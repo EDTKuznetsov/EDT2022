@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b06652-548b-4b72-a988-013ef1822533">
+  <producedTypes>
+    <objectType typeId="40092b36-5d60-43ce-bca8-65f29681ca95" valueTypeId="a0abd3e0-b8c5-4a59-93c3-36e5bdb2d493"/>
+    <refType typeId="400a93ed-236c-4de1-87c0-69d1ab42f116" valueTypeId="5da23741-3c06-4e3b-b59f-4377816b74d2"/>
+    <selectionType typeId="1e0d4bab-e116-42b8-9f77-d96b649e8271" valueTypeId="b5907f93-e942-4292-bd48-8669d9b3daad"/>
+    <listType typeId="04d3ab8f-c986-488b-8235-cb2b7f35e208" valueTypeId="f25ae09c-3fa6-4faf-a79f-f4e999162473"/>
+    <managerType typeId="64d688dd-9b34-43bb-980c-e9fe93550ccd" valueTypeId="59c4b49e-e746-4d93-93b3-92697639b2dc"/>
+  </producedTypes>
+  <name>РеализацияТоваровИУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Реализация товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="08997c7b-f44c-4714-ba2c-115681e6c4d8">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6558697c-e219-4fb7-8ad3-5dc3ffd003d2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="78d67a47-0e4c-4033-a52a-3f86eee5e018">
+    <producedTypes>
+      <objectType typeId="80a81cce-1fee-45a8-9404-cfb580f7a2bf" valueTypeId="349631fe-87d3-48ea-8f09-e3a7574eba01"/>
+      <rowType typeId="f55e0b0b-c722-43c2-bd5c-adf54dde7fc9" valueTypeId="1a0f1b4c-0b77-407e-8931-9b1e971d2d49"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>en</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="3c6f563e-7ee6-443f-a24d-98d6d641c611">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>en</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fdc4d4a8-21a4-48d3-911c-4f5ae0389828">
+      <name>Количество</name>
+      <synonym>
+        <key>en</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="feb06b59-beaf-41a5-b453-73a904561a51">
+      <name>Цена</name>
+      <synonym>
+        <key>en</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6dc41d9b-a616-4527-9e6c-6ef691290a3a">
+      <name>Сумма</name>
+      <synonym>
+        <key>en</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

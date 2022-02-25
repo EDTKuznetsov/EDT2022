@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045923d5-1b89-48f6-a3d2-d4da8057d013">
+  <name>SimpleConf</name>
+  <synonym>
+    <key>en</key>
+    <value>Simple conf</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="de3cd0c4-f55e-4d73-b0e9-14f00a5748f9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5c5400ec-e8eb-4c3a-a8f4-830ac8d2763c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fb0cd3a1-b361-40d9-bba5-66b6fe7c3702"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d04499c5-d3cf-4906-80dc-723026bcd10d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8db949a0-5a11-469d-8cef-4afbb7264afd"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="677818db-5680-4534-9e0b-8a58283c5c1f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="230cdef5-0698-4e4f-8309-5e1a8f2a8f6b"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="48d9e0a4-1bbe-43b1-8bb6-6569f99c3321">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+</mdclass:Configuration>
